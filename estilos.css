@@ -1,10 +1,11 @@
 header{
-    padding: 5px;
-    background-color: #6d13a8c4;
-    border-radius: 30px;
-    margin: 10px;
-    border-color: black;
-    border: 3px solid;
+    background-image: url('imagenes/ofndoyungas.webp');
+    background-size: cover; /*ajusta el tamaño de la imagen para cubri todo el header*/
+    background-position: center; /*centra la imagen en el encabexzado*/
+    background-repeat: no-repeat; /*evita que la imagen se repita*/
+     display: flex; /* Utiliza flexbox para alinear elementos horizontalmente */
+    justify-content: space-between; /* Distribuye los elementos a ambos lados */
+    padding: 20px;
 }
 body{
     margin: 0;
@@ -12,33 +13,58 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color:#1c225f ;
+    background-color:#e6e8ff ;
 
 }
 .container{
     flex-grow: 1;
-    background-color: yellowgreen;
+    background-image: url('imagenes/ofndoyungas.webp');
+    background-size: cover; /*ajusta el tamaño de la imagen para cubri todo el header*/
+    background-position: center; /*centra la imagen en el encabexzado*/
+    background-repeat: no-repeat; /*evita que la imagen se repita*/
     text-align: center;
     
 }
 h2{
     display:inline-flex;
 }
+.titu{
+    margin: 10px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    height: 150px;
+    max-width: 150px;
+    margin-right: 20px;
+}
 a{
-    padding-right: 50px;
+    margin: 30px;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    height: 40px;
+    
+    display: inline-block;
     color: black;
-    font-size: 30px;
+    font-size: 70px;
     text-decoration: none;
-    color:orange;
-    font-family: Arial, Helvetica, sans-serif;
+    color:#CA6F1E  ;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.ff{
-    padding-left: 30px;
+/*cambia el color de la equirta caundo el mause pasa por encima */
+a:hover{
+    color: rgb(0, 255, 213);
 }
+.fodiv{
+    background-color: white;
+}
+
 .caja{
     width: 500px;
     height: auto;
-    background-color: red;
+    background-color: rgb(255, 249, 249);
     display: inline-block;
     padding: 20px;
     border-radius: 20px;
@@ -46,8 +72,9 @@ a{
     border: 5px solid;
     flex: 1;
 }
-footer{
-    background-color: aqua;
+footer {
+    background-color: #ffffff; /* Color de fondo del pie de página */
+    
 }
 .caja1{
     background-color: goldenrod;
