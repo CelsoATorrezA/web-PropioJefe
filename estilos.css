@@ -55,10 +55,10 @@ a{
 }
 /*cambia el color de la equirta caundo el mause pasa por encima */
 a:hover{
-    color: rgb(241, 241, 241);
+    color: rgb(255, 6, 6);
 }
 .fodiv{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(250, 250, 250);
 }
 
 .caja{
